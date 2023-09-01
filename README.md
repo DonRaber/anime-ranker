@@ -15,6 +15,6 @@ WERE GOING FOR INTERACTABLE OBJECTS -- NOTHING MAJOR COMPLICATED -- JUST WANT IT
 
 
 **BONUS GOALs:
-1. make them move around based on ranking
+1. make animes under the production move around based on ranking
 2. when you click an object it becomes the background but blurry
 3. Add images of main characters to anime descriptions

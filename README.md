@@ -26,7 +26,7 @@ ANIME LIST
 PRODUCTION COMPANY W/ ANIMES:
 
 -- STUDIO BONES:
-- My Hero Academia (僕のヒーローアカデミア 'Boku No Hero Academia)
+- My Hero Academia  (僕のヒーローアカデミア 'Boku No Hero Academia)
 - Full Metal Alchemist
 - Cowboy Bebop
 

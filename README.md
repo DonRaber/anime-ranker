@@ -30,20 +30,24 @@ PRODUCTION COMPANY W/ ANIMES:
 - Full Metal Alchemist
 - Cowboy Bebop
 
+
 -- STUDIO TOEI:
 - Neon Genesis: Evangelion
 - One Piece
 - Dragon Ball Z
+
 
 -- STUDIO MADHOUSE:
 - Hunter x Hunter
 - Parasyte
 - No Game/No Life
 
+
 -- STUDIO KADOKAWA:
 - Shield Hero
 - Overlord
 - RE:Zero
+
 
 -- STUDIO A-1:
 - Seven Deadly Sins

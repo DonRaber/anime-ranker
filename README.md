@@ -5,6 +5,7 @@ We are planning on making a small list of top 3 anime's based on 4 production co
 1. -- Each production will be displayed on the side
 2. -- when you click production company a larger copy appears center screen with top animes underneath it
 3. -- when you click on anime it displays a description
+4. -- a heart on the side that you can click and unclick
 
 
 

@@ -18,3 +18,36 @@ WERE GOING FOR INTERACTABLE OBJECTS -- NOTHING MAJOR COMPLICATED -- JUST WANT IT
 1. make animes under the production move around based on ranking
 2. when you click an object it becomes the background but blurry
 3. Add images of main characters to anime descriptions
+
+
+
+ANIME LIST
+-----------------
+PRODUCTION COMPANY W/ ANIMES:
+
+-- STUDIO BONES:
+- My Hero Academia
+- Full Metal Alchemist
+- Cowboy Bebop
+
+-- STUDIO TOEI:
+- Neon Genesis: Evangelion
+- One Piece
+- Dragon Ball Z
+
+-- STUDIO MADHOUSE:
+- Hunter x Hunter
+- Parasyte
+- No Game/No Life
+
+-- STUDIO KADOKAWA:
+- Shield Hero
+- Overlord
+- RE:Zero
+
+-- STUDIO A-1:
+- Seven Deadly Sins
+- Sword Art Online
+- FairyTale
+
+

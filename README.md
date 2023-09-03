@@ -43,10 +43,10 @@ PRODUCTION COMPANY W/ ANIMES:
 - No Game/No Life
 
 
--- STUDIO KADOKAWA:
-- Shield Hero
-- Overlord
-- RE:Zero
+-- STUDIO WHITE FOX
+- RE:ZERO
+- Arifureta
+- Stein's Gate
 
 
 -- STUDIO A-1:

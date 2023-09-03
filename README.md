@@ -45,9 +45,8 @@ PRODUCTION COMPANY W/ ANIMES:
 
 -- STUDIO WHITE FOX
 - RE:ZERO
-- Arifureta
+- Arifeuretta
 - Stein's Gate
-
 
 -- STUDIO A-1:
 - Seven Deadly Sins

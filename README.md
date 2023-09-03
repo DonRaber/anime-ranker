@@ -40,10 +40,10 @@ PRODUCTION COMPANY W/ ANIMES:
 - Parasyte
 - No Game/No Life
 
--- STUDIO KADOKAWA:
-- Shield Hero
-- Overlord
-- RE:Zero
+-- STUDIO WHITE FOX
+- RE:ZERO
+- Arifeuretta
+- Stein's Gate
 
 -- STUDIO A-1:
 - Seven Deadly Sins

@@ -26,19 +26,22 @@ ANIME LIST
 PRODUCTION COMPANY W/ ANIMES:
 
 -- STUDIO BONES:
-- My Hero Academia
+- My Hero Academia  (僕のヒーローアカデミア 'Boku No Hero Academia)
 - Full Metal Alchemist
 - Cowboy Bebop
+
 
 -- STUDIO TOEI:
 - Neon Genesis: Evangelion
 - One Piece
 - Dragon Ball Z
 
+
 -- STUDIO MADHOUSE:
 - Hunter x Hunter
 - Parasyte
 - No Game/No Life
+
 
 -- STUDIO WHITE FOX
 - RE:ZERO

@@ -11,4 +11,4 @@ console.log('hi')
 
 const music = document.querySelector('#music');
 
-music.volume = 0.3;
+music.volume = 0.1;

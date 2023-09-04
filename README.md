@@ -26,31 +26,31 @@ ANIME LIST
 PRODUCTION COMPANY W/ ANIMES:
 
 -- STUDIO BONES:
-- My Hero Academia  (僕のヒーローアカデミア 'Boku No Hero Academia) ✔️
-- Full Metal Alchemist✔️
-- Cowboy Bebop ✔️
+- My Hero Academia  (僕のヒーローアカデミア 'Boku No Hero Academia)
+- Full Metal Alchemist
+- Cowboy Bebop
 
 
 -- STUDIO TOEI:
-- Neon Genesis: Evangelion ✔️
-- One Piece ✔️
-- Dragon Ball Z ✔️
+- Neon Genesis: Evangelion
+- One Piece
+- Dragon Ball Z
 
 
 -- STUDIO MADHOUSE:
-- Hunter x Hunter ✔️
-- Parasyte  ✔️
-- No Game/No Life ✔️
+- Hunter x Hunter
+- Parasyte
+- No Game/No Life
 
 
 -- STUDIO WHITE FOX
-- RE:ZERO  ✔️
-- Arifureta ✔️
-- Stein's Gate ✔️
+- RE:ZERO
+- Arifeuretta
+- Stein's Gate
 
 -- STUDIO A-1:
-- Seven Deadly Sins ✔️
-- Sword Art Online ✔️
+- Seven Deadly Sins
+- Sword Art Online
 - FairyTale
 
 

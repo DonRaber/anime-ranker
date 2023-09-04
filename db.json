@@ -4,7 +4,7 @@
             "id": 1,
             "name": "Studio Bones",
             "founded": 1998,
-            "image": "https://www.nicepng.com/png/detail/829-8290680_48kib-2000x410-bones-bones-studio-anime-logo.png",
+            "image": "./assets/StudioBones.jpg",
             "anime": [
                 {
                     "name": "My Hero Academia (僕のヒーローアカデミア 'Boku No Hero Academia')",

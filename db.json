@@ -4,24 +4,24 @@
             "id": 1,
             "name": "Studio Bones",
             "founded": 1998,
-            "image" : "https://www.nicepng.com/png/detail/829-8290680_48kib-2000x410-bones-bones-studio-anime-logo.png",
+            "image" : "https://www.nicepng.com/png/detail/829-8290680_48kib-2000x410-bones-bones-studio-anime-logo.png", //   './assets/StudioBones.jpg'
             "anime": [
                 {
                     "name": "My Hero Academia (僕のヒーローアカデミア 'Boku No Hero Academia')",
                     "runtime": "2016 - Current",
-                    "image" : "https://res.cloudinary.com/jerrick/image/upload/v1507001187/m3hpmuzz2flbdhsegq0c.png",
+                    "image" : "https://res.cloudinary.com/jerrick/image/upload/v1507001187/m3hpmuzz2flbdhsegq0c.png", //     './assets/MyHeroAcademia.jpg'
                     "description": "A superhero-admiring boy without any powers enrolls in a prestigious hero academy and learns what it really means to be a hero."
                 },
                 {
                     "name": "Fullmetal Alchemist: Brotherhood",
                     "runtime": "2009 - 2010",
-                    "image" : "https://img2.hulu.com/user/v3/artwork/213ddd1e-0c45-4f84-bb25-ea90ffd6507c?base_image_bucket_name=image_manager&base_image=20f07374-9aa7-43a2-a94c-249b522a545c&size=1200x630&format=jpeg",
+                    "image" : "https://img2.hulu.com/user/v3/artwork/213ddd1e-0c45-4f84-bb25-ea90ffd6507c?base_image_bucket_name=image_manager&base_image=20f07374-9aa7-43a2-a94c-249b522a545c&size=1200x630&format=jpeg", //    './assets/FullMetalAlchemist.jpg',
                     "description": "Two brothers search for a Philosopher's Stone after an attempt to revive their deceased mother goes awry and leaves them in damaged physical forms."
                 },
                 {
                     "name": "Cowboy Bebop",
                     "runtime": "1998 - 1999",
-                    "image" : "https://sportshub.cbsistatic.com/i/2023/06/23/b7878228-262f-46f2-9040-69615076198c/cowboy-bebop-25th.jpg?auto=webp&width=1182&height=671&crop=1.762:1,smart",
+                    "image" : "https://sportshub.cbsistatic.com/i/2023/06/23/b7878228-262f-46f2-9040-69615076198c/cowboy-bebop-25th.jpg?auto=webp&width=1182&height=671&crop=1.762:1,smart",  //     './assets/CowboyBebop.jpg'
                     "description": "The futuristic misadventures and tragedies of an easygoing bounty hunter and his partners."
                 }
             ]
@@ -30,24 +30,24 @@
             "id": 2,
             "name": "Toei Animation",
             "founded": 1948,
-            "image" : "https://www.toei-animation-usa.com/images/about/pero.png",
+            "image" : "https://www.toei-animation-usa.com/images/about/pero.png",  //    './assets/ToeiAnimation.jpg'
             "anime": [
                 {
                     "name": "Neon Genesis Evangelion",
                     "runtime": "1995 - 1996",
-                    "image" : "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/6aeb860bb0a866b8310d2976f091f94e07988b6d23742ccdc6a195d22e9178aa._RI_TTW_.jpg",
+                    "image" : "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/6aeb860bb0a866b8310d2976f091f94e07988b6d23742ccdc6a195d22e9178aa._RI_TTW_.jpg",   //     './assets/NeonGenesis.jpg'
                     "description": "A teenage boy finds himself recruited as a member of an elite team of pilots by his father."
                 },
                 {
                     "name": "One Piece",
                     "runtime": "1999 - Current",
-                    "image" : "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe",
+                    "image" : "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/1ecde018e863e2aaee31f00a23378c35.jpe",   //    './assets/OnePiece.jpg'
                     "description": "Follows the adventures of Monkey D. Luffy and his pirate crew in order to find the greatest treasure ever left by the legendary Pirate, Gold Roger. The famous mystery treasure named 'One Piece'."
                 },
                 {
                     "name": "Dragon Ball Z",
                     "runtime": "1989 - 1996",
-                    "image" : "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/36bdc5ea4443cd8e42f22ec7d3884cbb.jpe",
+                    "image" : "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/36bdc5ea4443cd8e42f22ec7d3884cbb.jpe",   //    './assets/DragonBallz.jpg'
                     "description": "With the help of the powerful Dragonballs, a team of fighters led by the saiyan warrior Goku defend the planet earth from extraterrestrial enemies."
                 }
             ]
@@ -56,24 +56,24 @@
             "id": 3,
             "name": "Madhouse Inc",
             "founded": 1972,
-            "image" : "https://static.wikia.nocookie.net/hellboy-cinematic/images/e/e9/Madhouse.jpg/revision/latest?cb=20190123165007",
+            "image" : "https://static.wikia.nocookie.net/hellboy-cinematic/images/e/e9/Madhouse.jpg/revision/latest?cb=20190123165007",   //   './assets/MadHouseStudios.jpg'
             "anime": [
                 {
                     "name": "Hunter x Hunter",
                     "runtime": "2011 - 2014",
-                    "image" : "https://beebom.com/wp-content/uploads/2023/06/hunter-x-hunter-arcs-ranked.jpg?w=750&quality=75",
+                    "image" : "https://beebom.com/wp-content/uploads/2023/06/hunter-x-hunter-arcs-ranked.jpg?w=750&quality=75",   //   './assets/HunterXHunter.jpg'
                     "description": "Gon Freecss aspires to become a Hunter, an exceptional being capable of greatness. With his friends and his potential, he seeks out his father, who left him when he was younger."
                 },
                 {
                     "name": "Parasyte : The Maxim",
                     "runtime": "2014 - 2015",
-                    "image" : "https://img.hulu.com/user/v3/artwork/fd1aee21-6a0f-417c-ba55-57c5b0d22002?base_image_bucket_name=image_manager&base_image=a7d36866-2740-4bf6-ad09-836d99c779c4&size=1200x630&format=jpeg",
+                    "image" : "https://img.hulu.com/user/v3/artwork/fd1aee21-6a0f-417c-ba55-57c5b0d22002?base_image_bucket_name=image_manager&base_image=a7d36866-2740-4bf6-ad09-836d99c779c4&size=1200x630&format=jpeg",    //   './assets/Parasyte.jpg'
                     "description": "17-year-old Shinichi Izumi is partially infected by a Parasyte, monsters that butcher and consume humans. He must learn to co-exist with the creature if he is to survive both the life of a Parasyte and a human as part monster, part person."
                 },
                 {
                     "name": "No Game/No Life",
                     "runtime": "2014 - 2014",
-                    "image" : "https://img.hulu.com/user/v3/artwork/6e4dd558-5c67-465f-be02-abc5226900bb?base_image_bucket_name=image_manager&base_image=14d8a69b-aa68-4a31-8d20-73963bc1dd58&size=1200x630&format=jpeg",
+                    "image" : "https://img.hulu.com/user/v3/artwork/6e4dd558-5c67-465f-be02-abc5226900bb?base_image_bucket_name=image_manager&base_image=14d8a69b-aa68-4a31-8d20-73963bc1dd58&size=1200x630&format=jpeg",   //    './assets/NoGameNoLife.jpg'
                     "description": "Siblings Sora and Shiro make up the most feared team of pro gamers in the world, The Blank. When they manage to beat God himself in a game of chess, they are sent to a world where all disputes are settled with games."
                 }
             ]
@@ -82,24 +82,24 @@
             "id": 4,
             "name": "White-Fox Co.",
             "founded": 1998,
-            "image" : "https://cdn.myanimelist.net/s/common/company_logos/40ba3310-9602-47fc-beb2-cc346adada09_600x600_i?s=6e3600896f107186d1a8dad0a3222d43",
+            "image" : "https://cdn.myanimelist.net/s/common/company_logos/40ba3310-9602-47fc-beb2-cc346adada09_600x600_i?s=6e3600896f107186d1a8dad0a3222d43",   //   './assets/WhiteFoxStudios.jpg'
             "anime": [
                 {
                     "name": "RE: Zero",
                     "runtime": "2016 - 2021",
-                    "image" : "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/012cf04881569148f80426f65d1453e6530d7b4edb9599f65902133539a10b99._RI_TTW_.jpg",
+                    "image" : "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/012cf04881569148f80426f65d1453e6530d7b4edb9599f65902133539a10b99._RI_TTW_.jpg",   //   './assets/ReZero.jpg'
                     "description": "After being suddenly transported to another world, Subaru Natsuki and his new female partner are brutally murdered. However, Subaru awakens to a familiar scene, meeting the same girl again. The day begins to mysteriously repeat itself."
                 },
                 {
                     "name": "Arifureta",
                     "runtime": "2019 - Current",
-                    "image" : "https://img1.hulu.com/user/v3/artwork/f3ebfa6a-c651-4e2b-b939-6c46dec8a66a?base_image_bucket_name=image_manager&base_image=10fc0842-3e40-47a7-b54e-231b657cfdf4&size=1200x630&format=jpeg",
+                    "image" : "https://img1.hulu.com/user/v3/artwork/f3ebfa6a-c651-4e2b-b939-6c46dec8a66a?base_image_bucket_name=image_manager&base_image=10fc0842-3e40-47a7-b54e-231b657cfdf4&size=1200x630&format=jpeg",   //   './assets/Arifureta.jpg'
                     "description": "The series follows Hajime Nagumo, who is transported to another world with the rest of his class to fight in a war against the demon race as Heroes. After he is betrayed and left to die by one of his classmates, Hajime begins a journey of intense struggle  to become the most powerful and find a way to return home."
                 },
                 {
                     "name": "Steins;Gate",
                     "runtime": "2011 - 2015",
-                    "image" : "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpe",
+                    "image" : "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpe",    //   './assets/SteinsGate.jpg'
                     "description": "After discovering time travel, a university student and his colleagues must use their knowledge of it to stop an evil organization and their diabolical plans"
                 }
             ]
@@ -108,24 +108,24 @@
             "id": 5,
             "name": "A-1 Pictures",
             "founded": 2005,
-            "image" : "https://lh6.googleusercontent.com/23yLBkMMTMN8pHjkgXLIUepcWdb3Q4qcnqCEVVKPXEF0uesLpam1sLIhN2SaJ1ThA0hadvDzwUJ65uH52sftS5NEfmWN8sE-ZXN3Ay1xAOS-o2mgfXxpEhEdMdizVvMFzyM2gxsFvIn4d80GQw",
+            "image" : "https://lh6.googleusercontent.com/23yLBkMMTMN8pHjkgXLIUepcWdb3Q4qcnqCEVVKPXEF0uesLpam1sLIhN2SaJ1ThA0hadvDzwUJ65uH52sftS5NEfmWN8sE-ZXN3Ay1xAOS-o2mgfXxpEhEdMdizVvMFzyM2gxsFvIn4d80GQw",    //    './assets/A1Pictures.jpg'
             "anime": [
                 {
                     "name": "Seven Deadly Sins",
                     "runtime": "2014 - 2021",
-                    "image" : "https://inreview52838412.files.wordpress.com/2020/08/ob_7debf6_2caqkb1m9ql6hju7ftve7lbryjt.jpg?w=1400",
+                    "image" : "https://inreview52838412.files.wordpress.com/2020/08/ob_7debf6_2caqkb1m9ql6hju7ftve7lbryjt.jpg?w=1400",    //    './assets/SevenDeadlySins.jpg'
                     "description": "The story of the Seven Deadly Sins, a group of warriors who were wrongly accused of a crime they didn't commit and went on a quest to vindicate themselves."
                 },
                 {
                     "name": "Sword Art Online",
                     "runtime": "2012 - 2020",
-                    "image" : "https://img3.hulu.com/user/v3/artwork/e95d9367-ee0f-425c-b8c7-472962669b58?base_image_bucket_name=image_manager&base_image=9e59326b-6344-4b0a-8396-63f4a4149a97&size=600x338&format=jpeg",
+                    "image" : "https://img3.hulu.com/user/v3/artwork/e95d9367-ee0f-425c-b8c7-472962669b58?base_image_bucket_name=image_manager&base_image=9e59326b-6344-4b0a-8396-63f4a4149a97&size=600x338&format=jpeg",    //    './assets/SwordArtOnline.jpg'
                     "description": "In the year 2022, thousands of people get trapped in a new virtual MMORPG and the lone wolf player, Kirito, works to escape."
                 },
                 {
                     "name": "Fairy Tail",
                     "runtime": "2009 - 2019",
-                    "image" : "https://www.crunchyroll.com/imgsrv/display/thumbnail/640x360/catalog/crunchyroll/e6600da879a400871da884b86fd2defd.jpe",
+                    "image" : "https://www.crunchyroll.com/imgsrv/display/thumbnail/640x360/catalog/crunchyroll/e6600da879a400871da884b86fd2defd.jpe",    //   './assets/FaryTail.jpg'
                     "description": "Lucy, an aspiring Celestial Wizard, becomes a friend and ally to powerful wizards Natsu, Gray, and Erza, who are part of the (in)famous wizard guild, Fairy Tail."
                 }
             ]

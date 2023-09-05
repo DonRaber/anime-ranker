@@ -1,7 +1,11 @@
 // FETCH
 fetch("./db.json")
-.then((resp) => resp.json())
-.then((data) => renderCompanies(data))
+    .then((resp) => resp.json())
+    .then((data) => renderCompanies(data))
+
+fetch("./db.json")
+    .then((resp) => resp.json())
+    .then((data) => renderVectors(data))
 
 // GLOBAL SCOPE
 
@@ -17,77 +21,119 @@ const targetScale = 2;
 
 // RENDERS
 
+
+
+// STUDIOS & ANIMES
+
 function renderCompanies(studios) {
-    
+
     const studioCom = studios.company
-    
-    
+
+
     studioCom.forEach((studio) => {
-        
+
         const studioList = document.createElement('li')
         studioList.textContent = studio.name
         animeCom.append(studioList)
         const animeCont = document.getElementById('animeContainer')
         const animeLi = studio.anime
-        
+        const vectorDiv = document.getElementById('vectorContainer')
+
+
 
         // CLICK EVENT LISTENER
-        
+
         studioList.addEventListener('click', () => {
-            
-            
+
+
             centerImage.src = studio.image
             centerName.textContent = studio.name
-            centerYear.textContent = `Founded ${studio.founded}`
+            centerYear.textContent = `Founded: ${studio.founded}`
             animeCont.innerHTML = ''
-            
+
             animeLi.forEach((anime) => {
-                
+
                 const animeImg = document.createElement('img')
-                
+
                 animeImg.className = 'animeThumbnail'
-                
+
                 animeImg.src = anime.image
 
-                //HOVER EVENT FOR EACH PICTURE
-                animeImg.style.transform = `scale(${initialScale})`;
+                //WORKING SPACE FOR VECTORS
 
-                function smoothTransition(timestamp, startScale, targetScale, duration) {
-                    const move = (timestamp - startTimestamp) / duration;
-                    if (move === 1) {
-                        const scale = startScale + (targetScale - startScale) * move;
+                const charVec = anime.vectors
+
+                // console.log(charVec)
+
+                
+                
+                
+                // vecImgs.forEach((vector) => {
+                    //     const charImg = document.createElement('img')
+                    //     charImg.src = vector.character
+                    //     console.log(charImg)
+                    // })
+                    
+                    //HOVER EVENT FOR EACH PICTURE
+                    
+                    animeImg.style.transform = `scale(${initialScale})`;
+                    
+                    function smoothTransition(timestamp, startScale, targetScale, duration) {
+                        const move = (timestamp - startTimestamp) / duration;
+                        if (move === 1) {
+                            const scale = startScale + (targetScale - startScale) * move;
                         animeImg.style.transform = `scale(${scale})`;
                         requestAnimationFrame(smoothTransition);
-                      } else {
+                    } else {
                         animeImg.style.transform = `scale(${targetScale})`;
-                      }
                     }
+                }
                 
                 let startTimestamp;
-
+                
+                
+                
                 animeImg.addEventListener('mouseover', (e) => {
                     startTimestamp = performance.now();
                     // e.target.style.zIndex = 200;
-                
+                    
+                    
+                    vectorDiv.innerHTML = "";
+                    charVec.forEach((vector) => {
+                        const charElement = document.createElement('img')
+                        const charVecImg = vector.character
+                        charElement.src = charVecImg
+                        vectorDiv.append(charElement)
+                        console.log(charElement)
+                    })
+                    
                     
                     requestAnimationFrame((timestamp) => smoothTransition(timestamp, initialScale, targetScale, 3));
-
-                animeCont.addEventListener('mouseout', () => {
-                    animeImg.style.transform = `scale(${initialScale})`;
-                })
+                    
+                    animeCont.addEventListener('mouseout', () => {
+                        vectorDiv.innerHTML = "";
+                        animeImg.style.transform = `scale(${initialScale})`;
+                    })
                 })
                 
                 // console.log(animeImg)
                 
                 animeCont.append(animeImg)
-                
+
             })
-            
+
 
         })
     })
 }
 
+// CHARACTER VECTORS
+
+function renderVectors(studios) {
+    const animeVec = studios.anime
+    // console.log(animeVec)
+
+}
 
 
 console.log('hi')

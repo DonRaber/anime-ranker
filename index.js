@@ -41,10 +41,10 @@ function renderCompanies(studios) {
                 animeImg.src = anime.image
                 console.log(currentLi)
                 console.log(animeImg)
-                currentLi.parentNode.replaceChildren(animeImg, currentLi)
-
+                animeCont.replaceChildren(animeImg, currentLi)
+                
             })
-
+            
 
         })
     })

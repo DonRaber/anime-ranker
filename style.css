@@ -102,9 +102,11 @@ img {
 }
 
 #animeContainer {
+    width: 75%;
     display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 #animeDisplay {

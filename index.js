@@ -14,33 +14,35 @@ const centerYear = document.getElementById('yearDisplay')
 // RENDERS
 
 function renderCompanies(studios) {
-
+    
     const studioCom = studios.company
-
+    
+    
     studioCom.forEach((studio) => {
-
+        
         const studioList = document.createElement('li')
         studioList.textContent = studio.name
         animeCom.append(studioList)
-        const animeDisp = document.getElementById('animeDisplay')
+        const animeCont = document.getElementById('animeContainer')
         const animeLi = studio.anime
-
+        
+        
         studioList.addEventListener('click', (e) => {
-
+            
             
             centerImage.src = studio.image
             centerName.textContent = studio.name
             centerYear.textContent = studio.founded
             
-            
             animeLi.forEach((anime) => {
-                const animeMain = document.querySelectorAll('.animeThumbnail')
-                const animeImg = document.querySelectorAll('.animeThumbnail > img')
+                const currentLi = document.querySelector('#animeContainer > img')
+                const animeImg = document.createElement('img')
+                animeImg.className = 'animeThumbnail'
                 animeImg.src = anime.image
+                console.log(currentLi)
+                console.log(animeImg)
+                currentLi.parentNode.replaceChildren(animeImg, currentLi)
 
-                animeMain.replaceChild("", animeImg)
-
-                
             })
 
 

@@ -15,13 +15,13 @@
                 {
                     "name": "Fullmetal Alchemist: Brotherhood",
                     "runtime": "2009 - 2010",
-                    "image": "./assets.FullMetalAlchemist.jpg",
+                    "image": "./assets/FullMetalAlchemist.jpg",
                     "description": "Two brothers search for a Philosopher's Stone after an attempt to revive their deceased mother goes awry and leaves them in damaged physical forms."
                 },
                 {
                     "name": "Cowboy Bebop",
                     "runtime": "1998 - 1999",
-                    "image": "./assests/CowboyBebop.jpg",
+                    "image": "./assets/CowboyBebop.jpg",
                     "description": "The futuristic misadventures and tragedies of an easygoing bounty hunter and his partners."
                 }
             ]
@@ -30,7 +30,7 @@
             "id": 2,
             "name": "Toei Animation",
             "founded": 1948,
-            "image": "./assests/ToeiAnimation.jpg",
+            "image": "assets/ToeiAnimaton.jpg",
             "anime": [
                 {
                     "name": "Neon Genesis Evangelion",
@@ -61,13 +61,13 @@
                 {
                     "name": "Hunter x Hunter",
                     "runtime": "2011 - 2014",
-                    "image": "./assets/HunterXHunter.jpg db.json",
+                    "image": "./assets/HunterXHunter.jpg",
                     "description": "Gon Freecss aspires to become a Hunter, an exceptional being capable of greatness. With his friends and his potential, he seeks out his father, who left him when he was younger."
                 },
                 {
                     "name": "Parasyte : The Maxim",
                     "runtime": "2014 - 2015",
-                    "image": "./assets/Parasyte.jpg db.json",
+                    "image": "./assets/Parasyte.jpg",
                     "description": "17-year-old Shinichi Izumi is partially infected by a Parasyte, monsters that butcher and consume humans. He must learn to co-exist with the creature if he is to survive both the life of a Parasyte and a human as part monster, part person."
                 },
                 {

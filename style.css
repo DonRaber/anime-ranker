@@ -38,24 +38,25 @@ ul {
 h1 {
     display: block;
     z-index: 2;
-    background-color: white;
-    text-decoration-color: black;
+    font-style: italic;
+    color: white;
 }
 
 /* CLASS STYLING */
 
 .animeThumbnail {
-    display: flex;
-}
-
-img {
+    width: 200px;
     height: auto;
-    max-width: 150px;
-    cursor: pointer;
     transition: transform 0.3s ease-in-out;
 }
 
-.animeThumbnail img:hover {
+/* img {
+    height: auto;
+    max-width: 150px;
+    cursor: pointer;
+} */
+
+.animeThumbnail:hover {
     transform: scale(1.5);
 }
 
@@ -85,7 +86,9 @@ img {
 }
 
 #studioImgDisplay {
-    display: block;
+    display: flex;
+    max-width: 500px;
+    max-height: 250px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 100px;
@@ -94,15 +97,22 @@ img {
 #studioNameDisplay {
     display: flex;
     justify-content: center;
+    font-weight: bold;
+    font-size: 50px;
 }
 
 #yearDisplay {
+    margin: auto;
     text-align: center;
-    padding-bottom: 50px;
+    width: 150px;
+    text-decoration-color: black;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 #animeContainer {
     width: 75%;
+    padding-top: 50px;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;

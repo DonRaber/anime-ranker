@@ -1,7 +1,7 @@
 // FETCH
 fetch("./db.json")
-    .then((resp) => resp.json())
-    .then((data) => renderCompanies(data))
+.then((resp) => resp.json())
+.then((data) => renderCompanies(data))
 
 // GLOBAL SCOPE
 
@@ -10,6 +10,10 @@ const centerImage = document.getElementById('studioImgDisplay')
 const centerName = document.getElementById('studioNameDisplay')
 const centerYear = document.getElementById('yearDisplay')
 
+//Hover Event Details
+
+const initialScale = 1;
+const targetScale = 2;
 
 // RENDERS
 
@@ -38,10 +42,43 @@ function renderCompanies(studios) {
             animeCont.innerHTML = ''
             
             animeLi.forEach((anime) => {
+                
                 const animeImg = document.createElement('img')
+                
                 animeImg.className = 'animeThumbnail'
+                
                 animeImg.src = anime.image
-                console.log(animeImg)
+
+                //HOVER EVENT FOR EACH PICTURE
+                animeImg.style.transform = `scale(${initialScale})`;
+
+                function smoothTransition(timestamp, startScale, targetScale, duration) {
+                    const move = (timestamp - startTimestamp) / duration;
+                    if (move === 1) {
+                        const scale = startScale + (targetScale - startScale) * move;
+                        animeImg.style.transform = `scale(${scale})`;
+                        requestAnimationFrame(smoothTransition);
+                      } else {
+                        animeImg.style.transform = `scale(${targetScale})`;
+                      }
+                    }
+                
+                let startTimestamp;
+
+                animeImg.addEventListener('mouseover', (e) => {
+                    startTimestamp = performance.now();
+                    // e.target.style.zIndex = 200;
+                
+                    
+                    requestAnimationFrame((timestamp) => smoothTransition(timestamp, initialScale, targetScale, 3));
+
+                animeCont.addEventListener('mouseout', () => {
+                    animeImg.style.transform = `scale(${initialScale})`;
+                })
+                })
+                
+                // console.log(animeImg)
+                
                 animeCont.append(animeImg)
                 
             })
@@ -53,11 +90,10 @@ function renderCompanies(studios) {
 
 
 
-
 console.log('hi')
 
 
-//One Piece Lofi Volume
+//One Piece Lofi Volume for MUSIC
 
 const music = document.querySelector('#music');
 

@@ -24,22 +24,23 @@ function renderCompanies(studios) {
         const animeCont = document.getElementById('animeContainer')
         const animeLi = studio.anime
         
+
+        // CLICK EVENT LISTENER
         
         studioList.addEventListener('click', () => {
             
             
             centerImage.src = studio.image
             centerName.textContent = studio.name
-            centerYear.textContent = studio.founded
+            centerYear.textContent = `Founded ${studio.founded}`
+            animeCont.innerHTML = ''
             
             animeLi.forEach((anime) => {
-                const currentLi = document.querySelector('#animeContainer > img')
                 const animeImg = document.createElement('img')
                 animeImg.className = 'animeThumbnail'
                 animeImg.src = anime.image
-                console.log(currentLi)
                 console.log(animeImg)
-                animeCont.replaceChildren(animeImg, currentLi)
+                animeCont.append(animeImg)
                 
             })
             
@@ -49,7 +50,7 @@ function renderCompanies(studios) {
 }
 
 
-// EVENT LISTENERS
+
 
 //console.log('hi')
 

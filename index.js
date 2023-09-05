@@ -143,4 +143,4 @@ console.log('hi')
 
 const music = document.querySelector('#music');
 
-music.volume = 0;
+music.volume = 0.2;

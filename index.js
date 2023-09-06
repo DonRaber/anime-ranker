@@ -99,7 +99,7 @@ function renderCompanies(studios) {
 
                 animeImg.addEventListener("mouseenter", () => {
                     animeSoundElement.play()
-                    animeSoundElement.volume = 0.2;
+                    animeSoundElement.volume = 0.4;
                 })
 
                 animeImg.addEventListener('mouseover', (e) => {

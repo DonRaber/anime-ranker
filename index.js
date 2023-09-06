@@ -54,8 +54,13 @@ function renderCompanies(studios) {
             animeLi.forEach((anime) => {
 
                 const animeImg = document.createElement('img')
-
                 animeImg.className = 'animeThumbnail'
+
+                const animeSound = anime.sound
+                const animeSoundElement = document.createElement("audio")
+                animeSoundElement.src = animeSound
+                animeSoundElement.id = "audioSound"
+
 
                 animeImg.src = anime.image
 
@@ -89,6 +94,16 @@ function renderCompanies(studios) {
 
                 // MOUSEOVER EVENT LISTENER
                 // Uses mouseover event to enlarge selected anime thumbnail and renders short description, years running, and several characters from the series
+
+                animeImg.addEventListener("mouseenter", () => {
+                    animeSoundElement.play()
+                })
+                animeImg.addEventListener("mouseleave", () => {
+                    setTimeout(function() {
+                        animeSoundElement.pause()
+                        animeSoundElement.currentTime = 0;
+                    }, 5000);
+                })
 
                 animeImg.addEventListener('mouseover', (e) => {
                     startTimestamp = performance.now();

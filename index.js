@@ -98,8 +98,8 @@ function renderCompanies(studios) {
                 // Uses mouseover event to enlarge selected anime thumbnail and renders short description, years running, and several characters from the series
 
                 animeImg.addEventListener("mouseenter", () => {
-                    animeSoundElement.play()
-                    animeSoundElement.volume = 0.4;
+                    animeSoundElement.pause()
+                    animeSoundElement.play()                     
                 })
 
                 animeImg.addEventListener('mouseover', (e) => {
@@ -151,12 +151,12 @@ function renderCompanies(studios) {
                     })
                 })
 
+                //EVENT LISTENER THAT STOPS ANIME AUDIO CLIP ON MOUSE MOVE OFF
+                
                 animeImg.addEventListener("mouseleave", () => {
-                    setTimeout(function () {
                         animeSoundElement.pause()
                         animeSoundElement.currentTime = 0;
-                    }, 5000);
-                })
+                    })
 
                 animeImg.addEventListener('mouseout', (e) => {
                     mainDisplay.innerHTML = ""
@@ -217,6 +217,6 @@ initResizerFn(resizer, animeCom);
 //OP LOFI BACKGROUND MUSIC
 // Plays low volume lofi music on loop once page is loaded
 
-const music = document.querySelector('#music');
+const music = document.querySelector('#mainmusic');
 
 music.volume = 0.2;

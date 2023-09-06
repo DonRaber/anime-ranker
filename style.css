@@ -1,32 +1,5 @@
 /* ELEMENT STYLING */
-.animeCompanies {
-  width: 333px;
-  height: 100%;
-  display: flex;
-  background-color: green
-}
-.resizer{
-  width: 3px;
-  top: 0;
-  right: 0;
-  cursor: col-resize;
-  height: 100%;
-  position: absolute;
-  background-color:aquamarine;
-}
-ul{
-  padding: 11px 0px;
-  list-style: none;
-}
-ul li{
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
-  padding: 5px 11px;
-}
-ul li:hover {
-  background-color: red;
-}
+
 body {
     box-sizing: border-box;
     margin: 0;
@@ -35,9 +8,8 @@ body {
     background-image: url("https://cdn.wallpapersafari.com/74/35/4XgZhW.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    position: static;
     display: flex;
-    flex-direction: row;
 }
 
 main {
@@ -59,7 +31,15 @@ nav {
 }
 
 ul {
+    padding: 11px 0px;
     list-style: none;
+}
+
+ul li {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 11px;
 }
 
 h1 {
@@ -69,7 +49,18 @@ h1 {
     color: white;
 }
 
+
 /* CLASS STYLING */
+
+.resizer {
+    width: 5px;
+    top: 0;
+    right: 0;
+    cursor: col-resize;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+}
 
 .animeThumbnail {
     width: 200px;
@@ -77,20 +68,22 @@ h1 {
     transition: transform 0.3s ease-in-out;
 }
 
-/* img {
-    height: auto;
-    max-width: 150px;
-    cursor: pointer;
-} */
-
 .animeThumbnail:hover {
     transform: scale(1.5);
 }
+
+.characterVector {
+    display: flex;
+    width: 200px;
+    height: auto;
+}
+
 
 /* ID STYLING */
 
 #animeCompanies {
     position: fixed;
+    width: 250px;
     margin-top: 50px;
     background-image: url("https://garden.spoonflower.com/c/9277543/p/f/m/xuoVuPF7n4_y65oZU4DpP1IUEL_qFegVzLUa1CUoJf3tefsjsjY/Demon%20Slaying%20Haori%20Fabric.jpg");
     display: flex;
@@ -152,4 +145,13 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+#vectorContainer {
+    width: 75%;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
 }

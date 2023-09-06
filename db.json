@@ -12,13 +12,18 @@
                     "image": "./assets/MyHeroAcademia.jpg",
                     "description": "A superhero-admiring boy without any powers enrolls in a prestigious hero academy and learns what it really means to be a hero.",
                     "vectors": [
-                        
-                            {"character": "./assets/vectors/MyHero/AllMight.png"},
-                            {"character": "./assets/vectors/MyHero/DekuVector.png"},
-                            {"character": "./assets/vectors/MyHero/Bakugo.png"},
-                            {"character": "./assets/vectors/MyHero/MyHeroCrew.png"}
-
-                        
+                        {
+                            "character": "./assets/vectors/MyHero/AllMight.png"
+                        },
+                        {
+                            "character": "./assets/vectors/MyHero/DekuVector.png"
+                        },
+                        {
+                            "character": "./assets/vectors/MyHero/Bakugo.png"
+                        },
+                        {
+                            "character": "./assets/vectors/MyHero/MyHeroCrew.png"
+                        }
                     ]
                 },
                 {
@@ -27,13 +32,18 @@
                     "image": "./assets/FullMetalAlchemist.jpg",
                     "description": "Two brothers search for a Philosopher's Stone after an attempt to revive their deceased mother goes awry and leaves them in damaged physical forms.",
                     "vectors": [
-                        
-                            {"character": "./assets/vectors/FullMetalAlchemist/Alphonse.png"},
-                            {"character": "./assets/vectors/FullMetalAlchemist/Edward1.png"},
-                            {"character": "./assets/vectors/FullMetalAlchemist/Edward2.png"},
-                            {"character": "./assets/vectors/FullMetalAlchemist/symbol.png"}
-
-                        
+                        {
+                            "character": "./assets/vectors/FullMetalAlchemist/Alphonse.png"
+                        },
+                        {
+                            "character": "./assets/vectors/FullMetalAlchemist/Edward1.png"
+                        },
+                        {
+                            "character": "./assets/vectors/FullMetalAlchemist/Edward2.png"
+                        },
+                        {
+                            "character": "./assets/vectors/FullMetalAlchemist/symbol.png"
+                        }
                     ]
                 },
                 {
@@ -42,10 +52,15 @@
                     "image": "./assets/CowboyBebop.jpg",
                     "description": "The futuristic misadventures and tragedies of an easygoing bounty hunter and his partners.",
                     "vectors": [
-                        
-                            {"character": "./assets/vectors/CowboyBebop/EdWithDog.png"},
-                            {"character": "./assets/vectors/CowboyBebop/Spike 1.png"},
-                            {"character": "./assets/vectors/CowboyBebop/faye2.png"}                      
+                        {
+                            "character": "./assets/vectors/CowboyBebop/EdWithDog.png"
+                        },
+                        {
+                            "character": "./assets/vectors/CowboyBebop/Spike 1.png"
+                        },
+                        {
+                            "character": "./assets/vectors/CowboyBebop/faye2.png"
+                        }
                     ]
                 }
             ]
@@ -61,10 +76,16 @@
                     "runtime": "1995 - 1996",
                     "image": "./assets/NeonGenesis.jpg",
                     "description": "A teenage boy finds himself recruited as a member of an elite team of pilots by his father.",
-                    "vectors": [                       
-                            {"character": "./assets/vectors/NeonGenesis/Rei.png"},
-                            {"character": "./assets/vectors/NeonGenesis/ShinjiMech.png"},
-                            {"character": "./assets/vectors/NeonGenesis/ShinjiReiAsuka.png"}                               
+                    "vectors": [
+                        {
+                            "character": "./assets/vectors/NeonGenesis/Rei.png"
+                        },
+                        {
+                            "character": "./assets/vectors/NeonGenesis/ShinjiMech.png"
+                        },
+                        {
+                            "character": "./assets/vectors/NeonGenesis/ShinjiReiAsuka.png"
+                        }
                     ]
                 },
                 {
@@ -72,12 +93,19 @@
                     "runtime": "1999 - Current",
                     "image": "./assets/OnePIece.jpg",
                     "description": "Follows the adventures of Monkey D. Luffy and his pirate crew in order to find the greatest treasure ever left by the legendary Pirate, Gold Roger. The famous mystery treasure named 'One Piece'.",
-                    "vectors": [                       
-                        {"character": "./assets/vectors/OnePiece/Luffy.png"},
-                        {"character": "./assets/vectors/OnePiece/Nami.png"},
-                        {"character": "./assets/vectors/OnePiece/Zoro.png"},                       
-                        {"character": "./assets/vectors/OnePiece/JollyRogerFlag.png"}                      
-                
+                    "vectors": [
+                        {
+                            "character": "./assets/vectors/OnePiece/Luffy.png"
+                        },
+                        {
+                            "character": "./assets/vectors/OnePiece/Nami.png"
+                        },
+                        {
+                            "character": "./assets/vectors/OnePiece/Zoro.png"
+                        },
+                        {
+                            "character": "./assets/vectors/OnePiece/JollyRogerFlag.png"
+                        }
                     ]
                 },
                 {
@@ -85,13 +113,25 @@
                     "runtime": "1989 - 1996",
                     "image": "./assets/DragonBallZ.jpg",
                     "description": "With the help of the powerful Dragonballs, a team of fighters led by the saiyan warrior Goku defend the planet earth from extraterrestrial enemies.",
-                    "vectors": [                       
-                        {"character": "./assets/vectors/DragonBallZ/frieza.png"},
-                        {"character": "./assets/vectors/DragonBallZ/Gohan.png"},
-                        {"character": "./assets/vectors/DragonBallZ/Goku1.png"},                                   
-                        {"character": "./assets/vectors/DragonBallZ/Krillin.png"},                                  
-                        {"character": "./assets/vectors/DragonBallZ/Piccolo2.png"},                  
-                        {"character": "./assets/vectors/DragonBallZ/Vegeta.png"}                                  
+                    "vectors": [
+                        {
+                            "character": "./assets/vectors/DragonBallZ/frieza.png"
+                        },
+                        {
+                            "character": "./assets/vectors/DragonBallZ/Gohan.png"
+                        },
+                        {
+                            "character": "./assets/vectors/DragonBallZ/Goku1.png"
+                        },
+                        {
+                            "character": "./assets/vectors/DragonBallZ/Krillin.png"
+                        },
+                        {
+                            "character": "./assets/vectors/DragonBallZ/Piccolo2.png"
+                        },
+                        {
+                            "character": "./assets/vectors/DragonBallZ/Vegeta.png"
+                        }
                     ]
                 }
             ]
@@ -107,35 +147,57 @@
                     "runtime": "2011 - 2014",
                     "image": "./assets/HunterXHunter.jpg",
                     "description": "Gon Freecss aspires to become a Hunter, an exceptional being capable of greatness. With his friends and his potential, he seeks out his father, who left him when he was younger.",
-                    "vectors": [                       
-                        {"character": "./assets/vectors/HunterX/Gon.png"},
-                        {"character": "./assets/vectors/HunterX/Kiroa.png"},
-                        {"character": "./assets/vectors/HunterX/AllTogether.png"},
-                        {"character": "./assets/vectors/HunterX/Leorio.png"}                   
-                ]
+                    "vectors": [
+                        {
+                            "character": "./assets/vectors/HunterX/Gon.png"
+                        },
+                        {
+                            "character": "./assets/vectors/HunterX/Kiroa.png"
+                        },
+                        {
+                            "character": "./assets/vectors/HunterX/AllTogether.png"
+                        },
+                        {
+                            "character": "./assets/vectors/HunterX/Leorio.png"
+                        }
+                    ]
                 },
                 {
                     "name": "Parasyte : The Maxim",
                     "runtime": "2014 - 2015",
                     "image": "./assets/Parasyte.jpg",
                     "description": "17-year-old Shinichi Izumi is partially infected by a Parasyte, monsters that butcher and consume humans. He must learn to co-exist with the creature if he is to survive both the life of a Parasyte and a human as part monster, part person.",
-                    "vectors": [                       
-                        {"character": "./assets/vectors/Parasyte/handSmaller.png"},
-                        {"character": "./assets/vectors/Parasyte/kana.png"},
-                        {"character": "./assets/vectors/Parasyte/Shinichi.png"},                   
-                        {"character": "./assets/vectors/Parasyte/Yū Serizawa.png"}                    
-                ]
+                    "vectors": [
+                        {
+                            "character": "./assets/vectors/Parasyte/handSmaller.png"
+                        },
+                        {
+                            "character": "./assets/vectors/Parasyte/kana.png"
+                        },
+                        {
+                            "character": "./assets/vectors/Parasyte/Shinichi.png"
+                        },
+                        {
+                            "character": "./assets/vectors/Parasyte/Yū Serizawa.png"
+                        }
+                    ]
                 },
                 {
                     "name": "No Game/No Life",
                     "runtime": "2014 - 2014",
                     "image": "./assets/NoGameNoLife.jpg",
                     "description": "Siblings Sora and Shiro make up the most feared team of pro gamers in the world, The Blank. When they manage to beat God himself in a game of chess, they are sent to a world where all disputes are settled with games.",
-                    "vectors": [                       
-                        {"character": "./assets/vectors/NoGameNoLife/Shiro2.png"},
-                        {"character": "./assets/vectors/NoGameNoLife/ShiroandSora.png"},
-                        {"character": "./assets/vectors/NoGameNoLife/Sora.png"}                   
-                ]
+                    "vectors": [
+                        {
+                            "character": "./assets/vectors/NoGameNoLife/Shiro2.png"
+                        },
+                        {
+                            "character": "./assets/vectors/NoGameNoLife/ShiroandSora.png"
+                        },
+                        {
+                            "character": "./assets/vectors/NoGameNoLife/Sora.png"
+                        }
+                    ]
                 }
             ]
         },
@@ -150,9 +212,13 @@
                     "runtime": "2016 - 2021",
                     "image": "./assets/ReZero.jpg",
                     "description": "After being suddenly transported to another world, Subaru Natsuki and his new female partner are brutally murdered. However, Subaru awakens to a familiar scene, meeting the same girl again. The day begins to mysteriously repeat itself.",
-                    "vectors": [                       
-                        {"character": "./assets/vectors/ReZero/SubaruBigger.png"},
-                        {"character": "./assets/vectors/ReZero/rem2.png"}                
+                    "vectors": [
+                        {
+                            "character": "./assets/vectors/ReZero/SubaruBigger.png"
+                        },
+                        {
+                            "character": "./assets/vectors/ReZero/rem2.png"
+                        }
                     ]
                 },
                 {
@@ -160,13 +226,25 @@
                     "runtime": "2019 - Current",
                     "image": "./assets/Arifureta.jpg",
                     "description": "The series follows Hajime Nagumo, who is transported to another world with the rest of his class to fight in a war against the demon race as Heroes. After he is betrayed and left to die by one of his classmates, Hajime begins a journey of intense struggle  to become the most powerful and find a way to return home.",
-                    "vectors": [                       
-                        {"character": "./assets/vectors/Arifureta/Hajime.png"},
-                        {"character": "./assets/vectors/Arifureta/Yue.png"},
-                        {"character": "./assets/vectors/Arifureta/gang.png"},
-                        {"character": "./assets/vectors/Arifureta/bunnyGirly.jpg"},                  
-                        {"character": "./assets/vectors/Arifureta/Kaori.jpg"},                  
-                        {"character": "./assets/vectors/Arifureta/Shizuku.jpg"}                  
+                    "vectors": [
+                        {
+                            "character": "./assets/vectors/Arifureta/Hajime.png"
+                        },
+                        {
+                            "character": "./assets/vectors/Arifureta/Yue.png"
+                        },
+                        {
+                            "character": "./assets/vectors/Arifureta/gang.png"
+                        },
+                        {
+                            "character": "./assets/vectors/Arifureta/bunnyGirly.jpg"
+                        },
+                        {
+                            "character": "./assets/vectors/Arifureta/Kaori.jpg"
+                        },
+                        {
+                            "character": "./assets/vectors/Arifureta/Shizuku.jpg"
+                        }
                     ]
                 },
                 {
@@ -174,9 +252,13 @@
                     "runtime": "2011 - 2015",
                     "image": "./assets/SteinsGateTitle.jpg",
                     "description": "After discovering time travel, a university student and his colleagues must use their knowledge of it to stop an evil organization and their diabolical plans",
-                    "vectors": [                       
-                        {"character": "./assets/vectors/Steins Gate/GroupBigger.png"},
-                        {"character": "./assets/vectors/Steins Gate/RinarouKurisu.png"}                 
+                    "vectors": [
+                        {
+                            "character": "./assets/vectors/Steins Gate/GroupBigger.png"
+                        },
+                        {
+                            "character": "./assets/vectors/Steins Gate/RinarouKurisu.png"
+                        }
                     ]
                 }
             ]
@@ -192,10 +274,16 @@
                     "runtime": "2014 - 2021",
                     "image": "./assets/SevenDeadlySins.jpg",
                     "description": "The story of the Seven Deadly Sins, a group of warriors who were wrongly accused of a crime they didn't commit and went on a quest to vindicate themselves.",
-                    "vectors": [                       
-                        {"character": "./assets/vectors/Seven Deadly Sins/HawkPig.png"},
-                        {"character": "./assets/vectors/Seven Deadly Sins/Meliodas.png"},
-                        {"character": "./assets/vectors/Seven Deadly Sins/SDSGroup.png"}                
+                    "vectors": [
+                        {
+                            "character": "./assets/vectors/Seven Deadly Sins/HawkPig.png"
+                        },
+                        {
+                            "character": "./assets/vectors/Seven Deadly Sins/Meliodas.png"
+                        },
+                        {
+                            "character": "./assets/vectors/Seven Deadly Sins/SDSGroup.png"
+                        }
                     ]
                 },
                 {
@@ -203,10 +291,16 @@
                     "runtime": "2012 - 2020",
                     "image": "./assets/SwordArtOnline.jpg",
                     "description": "In the year 2022, thousands of people get trapped in a new virtual MMORPG and the lone wolf player, Kirito, works to escape.",
-                    "vectors": [                       
-                        {"character": "./assets/vectors/Sword Art Online/Kirito.png"},
-                        {"character": "./assets/vectors/Sword Art Online/Kirito and Asuna.png"},
-                        {"character": "./assets/vectors/Sword Art Online/SWOGang.png"}                  
+                    "vectors": [
+                        {
+                            "character": "./assets/vectors/Sword Art Online/Kirito.png"
+                        },
+                        {
+                            "character": "./assets/vectors/Sword Art Online/Kirito and Asuna.png"
+                        },
+                        {
+                            "character": "./assets/vectors/Sword Art Online/SWOGang.png"
+                        }
                     ]
                 },
                 {
@@ -214,11 +308,19 @@
                     "runtime": "2009 - 2019",
                     "image": "./assets/FaryTail.jpg",
                     "description": "Lucy, an aspiring Celestial Wizard, becomes a friend and ally to powerful wizards Natsu, Gray, and Erza, who are part of the (in)famous wizard guild, Fairy Tail.",
-                    "vectors": [                       
-                        {"character": "./assets/vectors/FairyTail/FTGang.png"},
-                        {"character": "./assets/vectors/FairyTail/Lucy.png"},
-                        {"character": "./assets/vectors/FairyTail/Happy.png"},
-                        {"character": "./assets/vectors/FairyTail/Natsu.png"}                  
+                    "vectors": [
+                        {
+                            "character": "./assets/vectors/FairyTail/FTGang.png"
+                        },
+                        {
+                            "character": "./assets/vectors/FairyTail/Lucy.png"
+                        },
+                        {
+                            "character": "./assets/vectors/FairyTail/Happy.png"
+                        },
+                        {
+                            "character": "./assets/vectors/FairyTail/Natsu.png"
+                        }
                     ]
                 }
             ]

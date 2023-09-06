@@ -28,7 +28,7 @@
                     ]
                 },
                 {
-                    "name": "Fullmetal Alchemist: Brotherhood",
+                    "name": "Fullmetal Alchemist: Brotherhood (鋼の錬金術師 'Hagane no Renkinjutsushi')",
                     "runtime": "2009 - 2010",
                     "image": "./assets/FullMetalAlchemist.jpg",
                     "sound": "assets/AudioClips/fullmetal-alchemist-(meme)-made-with-Voicemod-technology.mp3",
@@ -49,7 +49,7 @@
                     ]
                 },
                 {
-                    "name": "Cowboy Bebop",
+                    "name": "Cowboy Bebop (カウボーイビバップ 'Kaubōi Bibappu')",
                     "runtime": "1998 - 1999",
                     "image": "./assets/CowboyBebop.jpg",
                     "sound": "assets/AudioClips/just-a-humble-bounty-hunter-made-with-Voicemod-technology.mp3",
@@ -75,7 +75,7 @@
             "image": "./assets/ToeiAnimaton.jpg",
             "anime": [
                 {
-                    "name": "Neon Genesis Evangelion",
+                    "name": "Neon Genesis Evangelion (新世紀エヴァンゲリオン 'Shinseiki Evangerion')",
                     "runtime": "1995 - 1996",
                     "image": "./assets/NeonGenesis.jpg",
                     "sound": "assets/AudioClips/evangelion-opening-theme-made-with-Voicemod-technology.mp3",
@@ -93,7 +93,7 @@
                     ]
                 },
                 {
-                    "name": "One Piece",
+                    "name": "One Piece (ワンピース 'Wanpīsu')",
                     "runtime": "1999 - Current",
                     "image": "./assets/OnePIece.jpg",
                     "sound": "assets/AudioClips/the-one-piece-is-real!-made-with-Voicemod-technology.mp3",
@@ -114,7 +114,7 @@
                     ]
                 },
                 {
-                    "name": "Dragon Ball Z",
+                    "name": "Dragon Ball Z (ドラゴンボール Z 'Doragon Bōru Zetto')",
                     "runtime": "1989 - 1996",
                     "image": "./assets/DragonBallZ.jpg",
                     "sound": "assets/AudioClips/don't-you-ever-get-bored-with-this-place -made-with-Voicemod-technology.mp3",
@@ -149,7 +149,7 @@
             "image": "./assets/MadHouseStudios.jpg",
             "anime": [
                 {
-                    "name": "Hunter x Hunter",
+                    "name": "Hunter x Hunter (ハンター×ハンター 'Hantā x hantā')",
                     "runtime": "2011 - 2014",
                     "image": "./assets/HunterXHunter.jpg",
                     "sound": "assets/AudioClips/hisoka-made-with-Voicemod-technology.mp3",
@@ -170,7 +170,7 @@
                     ]
                 },
                 {
-                    "name": "Parasyte : The Maxim",
+                    "name": "Parasyte : The Maxim (寄生獣 セイの格率 'Kiseijuu: Sei no Kakuritsu')",
                     "runtime": "2014 - 2015",
                     "image": "./assets/Parasyte.jpg",
                     "sound": "assets/AudioClips/parasyte-ost-made-with-Voicemod-technology.mp3",
@@ -191,7 +191,7 @@
                     ]
                 },
                 {
-                    "name": "No Game/No Life",
+                    "name": "No Game/No Life (ノーゲーム・ノーライフ 'Nō Gēmu Nō Raifu')",
                     "runtime": "2014 - 2014",
                     "image": "./assets/NoGameNoLife.jpg",
                     "sound": "",
@@ -217,7 +217,7 @@
             "image": "./assets/WhiteFoxStudios.jpg",
             "anime": [
                 {
-                    "name": "RE: Zero",
+                    "name": "RE: Zero (Re:ゼロから始める異世界生活 'Re:Zero kara Hajimeru Isekai Seikatsu')",
                     "runtime": "2016 - 2021",
                     "image": "./assets/ReZero.jpg",
                     "sound": "assets/AudioClips/re zero-funny-noise-made-with-Voicemod-technology.mp3",
@@ -232,7 +232,7 @@
                     ]
                 },
                 {
-                    "name": "Arifureta",
+                    "name": "Arifureta (ありふれた職業で世界最強 'Arifureta Shokugyō de Sekai Saikyō')",
                     "runtime": "2019 - Current",
                     "image": "./assets/Arifureta.jpg",
                     "sound": "",
@@ -259,7 +259,7 @@
                     ]
                 },
                 {
-                    "name": "Steins;Gate",
+                    "name": "Steins;Gate (シュタインズ・ゲート 'Shutainzu gēto')",
                     "runtime": "2011 - 2015",
                     "image": "./assets/SteinsGateTitle.jpg",
                     "sound": "",
@@ -282,7 +282,7 @@
             "image": "./assets/A1Pictures.jpg",
             "anime": [
                 {
-                    "name": "Seven Deadly Sins",
+                    "name": "Seven Deadly Sins (七つの大罪 'Nanatsu no Taizai')",
                     "runtime": "2014 - 2021",
                     "image": "./assets/SevenDeadlySins.jpg",
                     "sound": "assets/AudioClips/escanor-vs-galand-seven-deadly-sins-dub-made-with-Voicemod-technology.mp3",
@@ -300,7 +300,7 @@
                     ]
                 },
                 {
-                    "name": "Sword Art Online",
+                    "name": "Sword Art Online (ソードアート・オンライン 'Sōdo Āto Onrain')",
                     "runtime": "2012 - 2020",
                     "image": "./assets/SwordArtOnline.jpg",
                     "sound": "",
@@ -318,7 +318,7 @@
                     ]
                 },
                 {
-                    "name": "Fairy Tail",
+                    "name": "Fairy Tail (フェアリーテイル 'Feri Teiru')",
                     "runtime": "2009 - 2019",
                     "image": "./assets/FaryTail.jpg",
                     "sound": "",

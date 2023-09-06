@@ -11,7 +11,7 @@ const centerImage = document.getElementById('studioImgDisplay')
 const centerName = document.getElementById('studioNameDisplay')
 const centerYear = document.getElementById('yearDisplay')
 const vectorDiv = document.getElementById('vectorContainer')
-
+const mainDisplay = document.getElementById('display')
 
 //HOVER EVENT DETAILS
 // Scaling sizings for when hover event is triggered and reset
@@ -61,6 +61,9 @@ function renderCompanies(studios) {
                 animeSoundElement.src = animeSound
                 animeSoundElement.id = "audioSound"
 
+                const animeName = anime.name
+                const animeYear = anime.runtime
+                const animeSynopsis = anime.description
 
                 animeImg.src = anime.image
 
@@ -92,18 +95,28 @@ function renderCompanies(studios) {
 
                 const charVec = anime.vectors
 
-                // MOUSEOVER EVENT LISTENER
+                // MOUSEOVER EVENT LISTENERS
                 // Uses mouseover event to enlarge selected anime thumbnail and renders short description, years running, and several characters from the series
 
                 animeImg.addEventListener("mouseenter", () => {
                     animeSoundElement.play()
                 })
-                animeImg.addEventListener("mouseleave", () => {
-                    setTimeout(function() {
-                        animeSoundElement.pause()
-                        animeSoundElement.currentTime = 0;
-                    }, 5000);
+
+                animeImg.addEventListener('mouseover', (e) => {
+                    const descrCont = document.createElement('div')
+                    descrCont.className = 'descriptionContainer'
+                    
+                    mainDisplay.append(descrCont)
+
+                    const animeDesc = document.createElement('p')
+                    animeDesc.className = 'animeDescription'
+                    animeDesc.textContent = `${animeName} has been running from ${animeYear}: ${animeSynopsis}`
+
+                    descrCont.append(animeDesc)
+
+
                 })
+
 
                 animeImg.addEventListener('mouseover', (e) => {
                     startTimestamp = performance.now();
@@ -128,7 +141,7 @@ function renderCompanies(studios) {
                     requestAnimationFrame((timestamp) => smoothTransition(timestamp, initialScale, targetScale, 3));
 
 
-                    // MOUSEOUT EVENT LISTENER
+                    // MOUSEOUT/LEAVE EVENT LISTENERS
                     // Clears display of anime information once mouse is no longer over an anime thumbnail
 
                     animeCont.addEventListener('mouseout', (e) => {
@@ -136,6 +149,17 @@ function renderCompanies(studios) {
                         vectorDiv.innerHTML = "";
                         animeImg.style.transform = `scale(${initialScale})`;
                     })
+                })
+
+                animeImg.addEventListener("mouseleave", () => {
+                    setTimeout(function () {
+                        animeSoundElement.pause()
+                        animeSoundElement.currentTime = 0;
+                    }, 5000);
+                })
+
+                animeImg.addEventListener('mouseout', (e) => {
+                    mainDisplay.innerHTML = ""
                 })
 
                 animeCont.append(animeImg)
@@ -146,14 +170,14 @@ function renderCompanies(studios) {
 }
 /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
 function openNav() {
-  document.getElementById("mySidebar").style.width = "250px";
-  //document.getElementById("main").style.marginLeft = "250px";
+    document.getElementById("mySidebar").style.width = "250px";
+    //document.getElementById("main").style.marginLeft = "250px";
 }
 
 /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
 function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
-  document.getElementById("main").style.marginLeft = "0";
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
 }
 
 // NAV BAR RESIZER EVENT HANDLER

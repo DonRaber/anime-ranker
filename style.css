@@ -44,6 +44,7 @@ ul li {
 
 h1 {
     display: block;
+    text-align: center;
     z-index: 2;
     font-style: italic;
     color: white;
@@ -84,7 +85,7 @@ h4 {
     /* Stay on top */
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #68001a;
     /* Black*/
     overflow-x: hidden;
     /* Disable horizontal scroll */
@@ -143,6 +144,26 @@ h4 {
     height: auto;
 }
 
+.descriptionContainer {
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    width: 225px;
+    height: auto;
+    background-color: white;
+    border-radius: 20%;
+    text-align: center;
+}
+
+.animeDescription {
+    width: 200px;
+    height: auto;
+    line-height: 1.5;
+    text-indent: 20px;
+    word-spacing: 5px;
+    border-radius: 20%;
+}
+
 
 /* ID STYLING */
 
@@ -154,8 +175,6 @@ h4 {
 }
 
 #animeCompanies {
-    /* position: fixed; */
-    /* width: 250px; */
     margin-top: 50px;
     background-image: url("https://garden.spoonflower.com/c/9277543/p/f/m/xuoVuPF7n4_y65oZU4DpP1IUEL_qFegVzLUa1CUoJf3tefsjsjY/Demon%20Slaying%20Haori%20Fabric.jpg");
     display: flex;
@@ -164,14 +183,12 @@ h4 {
 }
 
 #animeCompanies li {
+    text-decoration-color: black;
     font-size: 25px;
     margin-top: 10%;
     padding-top: 10%;
-    background-color: green;
-    border-top-left-radius: 30%;
-
-    /* border-top-right-radius: 30%; */
-    /* height: 50%; */
+    background-color: white;
+    border-top-left-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;

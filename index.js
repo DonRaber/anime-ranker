@@ -90,7 +90,6 @@ function renderCompanies(studios) {
 
                 let startTimestamp;
 
-
                 // CHARACTER VECTOR CONST
 
                 const charVec = anime.vectors
@@ -100,6 +99,7 @@ function renderCompanies(studios) {
 
                 animeImg.addEventListener("mouseenter", () => {
                     animeSoundElement.play()
+                    animeSoundElement.volume = 0.2;
                 })
 
                 animeImg.addEventListener('mouseover', (e) => {
@@ -219,4 +219,4 @@ initResizerFn(resizer, animeCom);
 
 const music = document.querySelector('#music');
 
-music.volume = 0;
+music.volume = 0.2;

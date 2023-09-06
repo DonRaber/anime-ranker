@@ -1,14 +1,173 @@
 // FETCH
+fetch("./db.json")
+    .then((resp) => resp.json())
+    .then((data) => renderCompanies(data))
+
+
+// GLOBAL SCOPE
+
+const animeCom = document.getElementById('animeCompanies')
+const centerImage = document.getElementById('studioImgDisplay')
+const centerName = document.getElementById('studioNameDisplay')
+const centerYear = document.getElementById('yearDisplay')
+const vectorDiv = document.getElementById('vectorContainer')
+
+
+//HOVER EVENT DETAILS
+// Scaling sizings for when hover event is triggered and reset
+
+const initialScale = 1;
+const targetScale = 2;
+
 
 // RENDERS
 
-// EVENT LISTENERS
 
-console.log('hi')
+// STUDIOS & ANIMES
+
+function renderCompanies(studios) {
+
+    const studioCom = studios.company
 
 
-//One Piece Lofi Volume
+    studioCom.forEach((studio) => {
+
+        const studioList = document.createElement('li')
+        studioList.textContent = studio.name
+        animeCom.append(studioList)
+        const animeCont = document.getElementById('animeContainer')
+        const animeLi = studio.anime
+
+
+
+        // CLICK EVENT LISTENER
+        // Renders studio information and anime thumbnails once a studio name is clicked from the nav bar
+
+        studioList.addEventListener('click', () => {
+
+
+            centerImage.src = studio.image
+            centerName.textContent = studio.name
+            centerYear.textContent = `Founded: ${studio.founded}`
+            animeCont.innerHTML = ''
+
+            animeLi.forEach((anime) => {
+
+                const animeImg = document.createElement('img')
+
+                animeImg.className = 'animeThumbnail'
+
+                animeImg.src = anime.image
+
+
+                //WORKING SPACE FOR VECTORS
+
+
+
+                //HOVER EVENT SCALING
+                // Controls scaling size and smoothness of hover event through this function that calculates speed and size of anime thumbnail to determine proper speed in which to enlarge the picture
+
+                animeImg.style.transform = `scale(${initialScale})`;
+
+                function smoothTransition(timestamp, startScale, targetScale, duration) {
+                    const move = (timestamp - startTimestamp) / duration;
+                    if (move === 1) {
+                        const scale = startScale + (targetScale - startScale) * move;
+                        animeImg.style.transform = `scale(${scale})`;
+                        requestAnimationFrame(smoothTransition);
+                    } else {
+                        animeImg.style.transform = `scale(${targetScale})`;
+                    }
+                }
+
+                let startTimestamp;
+
+
+                // CHARACTER VECTOR CONST
+
+                const charVec = anime.vectors
+
+                // MOUSEOVER EVENT LISTENER
+                // Uses mouseover event to enlarge selected anime thumbnail and renders short description, years running, and several characters from the series
+
+                animeImg.addEventListener('mouseover', (e) => {
+                    startTimestamp = performance.now();
+                    e.target.style.zIndex = 5000;
+
+
+                    // CHARACTER VECTOR RENDER
+                    // Renders characters onto page after mouse is brought over anime thumbnail
+
+                    vectorDiv.innerHTML = "";
+                    charVec.forEach((vector) => {
+                        const charElement = document.createElement('img')
+                        charElement.className = 'characterVector'
+                        const charVecImg = vector.character
+                        charElement.src = charVecImg
+                        charElement.style.zIndex = 9000
+                        vectorDiv.append(charElement)
+                        console.log(charElement)
+                    })
+
+
+                    requestAnimationFrame((timestamp) => smoothTransition(timestamp, initialScale, targetScale, 3));
+
+
+                    // MOUSEOUT EVENT LISTENER
+                    // Clears display of anime information once mouse is no longer over an anime thumbnail
+
+                    animeCont.addEventListener('mouseout', (e) => {
+                        e.target.style.zIndex = 0
+                        vectorDiv.innerHTML = "";
+                        animeImg.style.transform = `scale(${initialScale})`;
+                    })
+                })
+
+                animeCont.append(animeImg)
+
+            })
+        })
+    })
+}
+
+
+// NAV BAR RESIZER EVENT HANDLER
+// Allows user to resize nav bar through mousedown and move events on nav border
+
+const resizer = document.querySelector(".resizer")
+function initResizerFn(resizer, animeCom) {
+    let x, w;
+    let currentWidth
+    function rs_mousedownHandler(e) {
+        x = e.clientX;
+
+        const navWidth = window.getComputedStyle(animeCom).width;
+        w = parseInt(navWidth, 10);
+        resizer.addEventListener("mousemove", rs_mousemoveHandler);
+        resizer.addEventListener("mouseup", rs_mouseupHandler);
+    }
+
+    function rs_mousemoveHandler(e) {
+        const destinationX = e.clientX - x;
+        const currentWidth = w + destinationX;
+
+        
+        if (currentWidth < 700) {
+            animeCom.style.width = `${currentWidth}px`;
+        }
+    }
+    function rs_mouseupHandler() {
+        animeCom.style.width = `${currentWidth}px`
+        resizer.removeEventListener("mousemove", rs_mouseupHandler);
+    }
+    resizer.addEventListener("mousedown", rs_mousedownHandler);
+}
+initResizerFn(resizer, animeCom);
+
+
+//OP LOFI BACKGROUND MUSIC
+// Plays low volume lofi music on loop once page is loaded
 
 const music = document.querySelector('#music');
 
-music.volume = 0.1;
+music.volume = 0;

@@ -173,7 +173,7 @@
                     "name": "Parasyte : The Maxim (寄生獣 セイの格率 'Kiseijuu: Sei no Kakuritsu')",
                     "runtime": "2014 - 2015",
                     "image": "./assets/Parasyte.jpg",
-                    "sound": "assets/AudioClips/parasyte-ost-made-with-Voicemod-technology.mp3",
+                    "sound": "./assets/AudioClips/parasyte-ost-made-with-Voicemod-technology.mp3",
                     "description": "17-year-old Shinichi Izumi is partially infected by a Parasyte, monsters that butcher and consume humans. He must learn to co-exist with the creature if he is to survive both the life of a Parasyte and a human as part monster, part person.",
                     "vectors": [
                         {
@@ -194,7 +194,7 @@
                     "name": "No Game/No Life (ノーゲーム・ノーライフ 'Nō Gēmu Nō Raifu')",
                     "runtime": "2014 - 2014",
                     "image": "./assets/NoGameNoLife.jpg",
-                    "sound": "",
+                    "sound": "./assets/AudioClips/noGameNoLifeEdit.mp3",
                     "description": "Siblings Sora and Shiro make up the most feared team of pro gamers in the world, The Blank. When they manage to beat God himself in a game of chess, they are sent to a world where all disputes are settled with games.",
                     "vectors": [
                         {
@@ -235,7 +235,7 @@
                     "name": "Arifureta (ありふれた職業で世界最強 'Arifureta Shokugyō de Sekai Saikyō')",
                     "runtime": "2019 - Current",
                     "image": "./assets/Arifureta.jpg",
-                    "sound": "",
+                    "sound": "./assets/AudioClips/hajimeShootsEdit.mp3",
                     "description": "The series follows Hajime Nagumo, who is transported to another world with the rest of his class to fight in a war against the demon race as Heroes. After he is betrayed and left to die by one of his classmates, Hajime begins a journey of intense struggle  to become the most powerful and find a way to return home.",
                     "vectors": [
                         {
@@ -262,7 +262,7 @@
                     "name": "Steins;Gate (シュタインズ・ゲート 'Shutainzu gēto')",
                     "runtime": "2011 - 2015",
                     "image": "./assets/SteinsGateTitle.jpg",
-                    "sound": "",
+                    "sound": "./assets/AudioClips/steinsGateEdit.mp3",
                     "description": "After discovering time travel, a university student and his colleagues must use their knowledge of it to stop an evil organization and their diabolical plans",
                     "vectors": [
                         {
@@ -303,7 +303,7 @@
                     "name": "Sword Art Online (ソードアート・オンライン 'Sōdo Āto Onrain')",
                     "runtime": "2012 - 2020",
                     "image": "./assets/SwordArtOnline.jpg",
-                    "sound": "",
+                    "sound": "./assets/AudioClips/KiritoEdit.mp3",
                     "description": "In the year 2022, thousands of people get trapped in a new virtual MMORPG and the lone wolf player, Kirito, works to escape.",
                     "vectors": [
                         {
@@ -321,7 +321,7 @@
                     "name": "Fairy Tail (フェアリーテイル 'Feri Teiru')",
                     "runtime": "2009 - 2019",
                     "image": "./assets/FaryTail.jpg",
-                    "sound": "",
+                    "sound": "./assets/AudioClips/fairytaleedit.mp3",
                     "description": "Lucy, an aspiring Celestial Wizard, becomes a friend and ally to powerful wizards Natsu, Gray, and Erza, who are part of the (in)famous wizard guild, Fairy Tail.",
                     "vectors": [
                         {

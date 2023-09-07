@@ -11,7 +11,7 @@ const centerImage = document.getElementById('studioImgDisplay')
 const centerName = document.getElementById('studioNameDisplay')
 const centerYear = document.getElementById('yearDisplay')
 const vectorDiv = document.getElementById('vectorContainer')
-
+const mainDisplay = document.getElementById('display')
 
 //HOVER EVENT DETAILS
 // Scaling sizings for when hover event is triggered and reset
@@ -54,8 +54,16 @@ function renderCompanies(studios) {
             animeLi.forEach((anime) => {
 
                 const animeImg = document.createElement('img')
-
                 animeImg.className = 'animeThumbnail'
+
+                const animeSound = anime.sound
+                const animeSoundElement = document.createElement("audio")
+                animeSoundElement.src = animeSound
+                animeSoundElement.id = "audioSound"
+
+                const animeName = anime.name
+                const animeYear = anime.runtime
+                const animeSynopsis = anime.description
 
                 animeImg.src = anime.image
 
@@ -82,13 +90,33 @@ function renderCompanies(studios) {
 
                 let startTimestamp;
 
-
                 // CHARACTER VECTOR CONST
 
                 const charVec = anime.vectors
 
-                // MOUSEOVER EVENT LISTENER
+                // MOUSEOVER EVENT LISTENERS
                 // Uses mouseover event to enlarge selected anime thumbnail and renders short description, years running, and several characters from the series
+
+                animeImg.addEventListener("mouseenter", () => {
+                    animeSoundElement.pause()
+                    animeSoundElement.play()                     
+                })
+
+                animeImg.addEventListener('mouseover', (e) => {
+                    const descrCont = document.createElement('div')
+                    descrCont.className = 'descriptionContainer'
+                    
+                    mainDisplay.append(descrCont)
+
+                    const animeDesc = document.createElement('p')
+                    animeDesc.className = 'animeDescription'
+                    animeDesc.textContent = `${animeName} has been running from ${animeYear}: ${animeSynopsis}`
+
+                    descrCont.append(animeDesc)
+
+
+                })
+
 
                 animeImg.addEventListener('mouseover', (e) => {
                     startTimestamp = performance.now();
@@ -113,7 +141,7 @@ function renderCompanies(studios) {
                     requestAnimationFrame((timestamp) => smoothTransition(timestamp, initialScale, targetScale, 3));
 
 
-                    // MOUSEOUT EVENT LISTENER
+                    // MOUSEOUT/LEAVE EVENT LISTENERS
                     // Clears display of anime information once mouse is no longer over an anime thumbnail
 
                     animeCont.addEventListener('mouseout', (e) => {
@@ -121,6 +149,17 @@ function renderCompanies(studios) {
                         vectorDiv.innerHTML = "";
                         animeImg.style.transform = `scale(${initialScale})`;
                     })
+                })
+
+                //EVENT LISTENER THAT STOPS ANIME AUDIO CLIP ON MOUSE MOVE OFF
+                
+                animeImg.addEventListener("mouseleave", () => {
+                        animeSoundElement.pause()
+                        animeSoundElement.currentTime = 0;
+                    })
+
+                animeImg.addEventListener('mouseout', (e) => {
+                    mainDisplay.innerHTML = ""
                 })
 
                 animeCont.append(animeImg)
@@ -131,43 +170,37 @@ function renderCompanies(studios) {
 }
 
 
-// NAV BAR RESIZER EVENT HANDLER
-// Allows user to resize nav bar through mousedown and move events on nav border
-
-const resizer = document.querySelector(".resizer")
-function initResizerFn(resizer, animeCom) {
-    let x, w;
-    let currentWidth
-    function rs_mousedownHandler(e) {
-        x = e.clientX;
-
-        const navWidth = window.getComputedStyle(animeCom).width;
-        w = parseInt(navWidth, 10);
-        resizer.addEventListener("mousemove", rs_mousemoveHandler);
-        resizer.addEventListener("mouseup", rs_mouseupHandler);
-    }
-
-    function rs_mousemoveHandler(e) {
-        const destinationX = e.clientX - x;
-        const currentWidth = w + destinationX;
-
-        
-        if (currentWidth < 700) {
-            animeCom.style.width = `${currentWidth}px`;
-        }
-    }
-    function rs_mouseupHandler() {
-        animeCom.style.width = `${currentWidth}px`
-        resizer.removeEventListener("mousemove", rs_mouseupHandler);
-    }
-    resizer.addEventListener("mousedown", rs_mousedownHandler);
+// NAV BAR EVENT
+// Creates a clickabe and collabsable nav bar for the studio list
+/* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    music.play()
 }
-initResizerFn(resizer, animeCom);
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+    music.pause()
+}
+
+// MUSIC VOLUME
+
+const music = document.querySelector('#mainmusic');
+ 
+music.volume = 0.2;
 
 
-//OP LOFI BACKGROUND MUSIC
-// Plays low volume lofi music on loop once page is loaded
 
-const music = document.querySelector('#music');
+//SELF DESTRUCT BUTTON
+// Just for fun but pretty self explanatory
 
-music.volume = 0;
+const selfDestruct = document.getElementById('pauseButton')
+
+const wholeForm = document.getElementById('everything')
+
+selfDestruct.addEventListener('click', () => {
+    wholeForm.innerHTML = ""
+})
+

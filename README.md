@@ -1,11 +1,26 @@
 # anime-ranker
 
+Capabilities and How to Use:
+----------------------------------------------------------
+
+-Gives a list of anime studios and their respective animes
+
+-Click the 'Click Me Senpai' to create the dropdown menu and start the background music(close nav bar to pause music)
+
+-Once a Studio is picked you can hover over an anime to see images of some of the characters, play a short sound clip, and display a short description of the anime(name: both English and Japanese(as well as the pronunciation in Japanese), runtime of the anime, and a short description)
+
+-Clicking of a different studio will clear out the old anime and renders the new anime of the respective studio
+
+- For fun, once all is read and done, you can locate our footer and *maybe* click it to perform a "self-destruct" on the WHOLE HTML and clear the page lol (because why not 🥴)
+
+
+
+
 We are planning on making a small list of top 3 anime's based on 4 production companies 
 
 1. -- Each production will be displayed on the side
 2. -- when you click production company a larger copy appears center screen with top animes underneath it
 3. -- when you click on anime it displays a description
-4. -- a heart on the side that you can click and unclick
 
 
 
@@ -14,11 +29,10 @@ WERE GOING FOR INTERACTABLE OBJECTS -- NOTHING MAJOR COMPLICATED -- JUST WANT IT
 
 
 
-**BONUS GOALs:
-1. make animes under the production move around based on ranking
-2. when you click an Anime Image the description pops up over/around the image with character vectors on screen
-3. Add images of main characters to anime descriptions
-4. Add Background music
+**STRETCH GOALs:
+1. when you click an Anime Image the description pops up over
+2. Add images of characters as vectors on screen
+3. Add Background music & music to individual anime images
 
 
 
@@ -27,7 +41,7 @@ ANIME LIST
 PRODUCTION COMPANY W/ ANIMES:
 
 -- STUDIO BONES:
-- My Hero Academia  (僕のヒーローアカデミア 'Boku No Hero Academia)
+- My Hero Academia
 - Full Metal Alchemist
 - Cowboy Bebop
 

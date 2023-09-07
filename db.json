@@ -10,6 +10,7 @@
                     "name": "My Hero Academia (僕のヒーローアカデミア 'Boku No Hero Academia')",
                     "runtime": "2016 - Current",
                     "image": "./assets/MyHeroAcademia.jpg",
+                    "sound": "assets/AudioClips/i-just-have-to-do-it-right-now-with-the-power-i-have-made-with-Voicemod-technology.mp3",
                     "description": "A superhero-admiring boy without any powers enrolls in a prestigious hero academy and learns what it really means to be a hero.",
                     "vectors": [
                         {
@@ -27,9 +28,10 @@
                     ]
                 },
                 {
-                    "name": "Fullmetal Alchemist: Brotherhood",
+                    "name": "Fullmetal Alchemist: Brotherhood (鋼の錬金術師 'Hagane no Renkinjutsushi')",
                     "runtime": "2009 - 2010",
                     "image": "./assets/FullMetalAlchemist.jpg",
+                    "sound": "assets/AudioClips/fullmetal-alchemist-(meme)-made-with-Voicemod-technology.mp3",
                     "description": "Two brothers search for a Philosopher's Stone after an attempt to revive their deceased mother goes awry and leaves them in damaged physical forms.",
                     "vectors": [
                         {
@@ -47,9 +49,10 @@
                     ]
                 },
                 {
-                    "name": "Cowboy Bebop",
+                    "name": "Cowboy Bebop (カウボーイビバップ 'Kaubōi Bibappu')",
                     "runtime": "1998 - 1999",
                     "image": "./assets/CowboyBebop.jpg",
+                    "sound": "assets/AudioClips/just-a-humble-bounty-hunter-made-with-Voicemod-technology.mp3",
                     "description": "The futuristic misadventures and tragedies of an easygoing bounty hunter and his partners.",
                     "vectors": [
                         {
@@ -72,9 +75,10 @@
             "image": "./assets/ToeiAnimaton.jpg",
             "anime": [
                 {
-                    "name": "Neon Genesis Evangelion",
+                    "name": "Neon Genesis Evangelion (新世紀エヴァンゲリオン 'Shinseiki Evangerion')",
                     "runtime": "1995 - 1996",
                     "image": "./assets/NeonGenesis.jpg",
+                    "sound": "assets/AudioClips/evangelion-opening-theme-made-with-Voicemod-technology.mp3",
                     "description": "A teenage boy finds himself recruited as a member of an elite team of pilots by his father.",
                     "vectors": [
                         {
@@ -89,9 +93,10 @@
                     ]
                 },
                 {
-                    "name": "One Piece",
+                    "name": "One Piece (ワンピース 'Wanpīsu')",
                     "runtime": "1999 - Current",
                     "image": "./assets/OnePIece.jpg",
+                    "sound": "assets/AudioClips/the-one-piece-is-real!-made-with-Voicemod-technology.mp3",
                     "description": "Follows the adventures of Monkey D. Luffy and his pirate crew in order to find the greatest treasure ever left by the legendary Pirate, Gold Roger. The famous mystery treasure named 'One Piece'.",
                     "vectors": [
                         {
@@ -109,9 +114,10 @@
                     ]
                 },
                 {
-                    "name": "Dragon Ball Z",
+                    "name": "Dragon Ball Z (ドラゴンボール Z 'Doragon Bōru Zetto')",
                     "runtime": "1989 - 1996",
                     "image": "./assets/DragonBallZ.jpg",
+                    "sound": "assets/AudioClips/don't-you-ever-get-bored-with-this-place -made-with-Voicemod-technology.mp3",
                     "description": "With the help of the powerful Dragonballs, a team of fighters led by the saiyan warrior Goku defend the planet earth from extraterrestrial enemies.",
                     "vectors": [
                         {
@@ -143,9 +149,10 @@
             "image": "./assets/MadHouseStudios.jpg",
             "anime": [
                 {
-                    "name": "Hunter x Hunter",
+                    "name": "Hunter x Hunter (ハンター×ハンター 'Hantā x hantā')",
                     "runtime": "2011 - 2014",
                     "image": "./assets/HunterXHunter.jpg",
+                    "sound": "assets/AudioClips/hisoka-made-with-Voicemod-technology.mp3",
                     "description": "Gon Freecss aspires to become a Hunter, an exceptional being capable of greatness. With his friends and his potential, he seeks out his father, who left him when he was younger.",
                     "vectors": [
                         {
@@ -163,9 +170,10 @@
                     ]
                 },
                 {
-                    "name": "Parasyte : The Maxim",
+                    "name": "Parasyte : The Maxim (寄生獣 セイの格率 'Kiseijuu: Sei no Kakuritsu')",
                     "runtime": "2014 - 2015",
                     "image": "./assets/Parasyte.jpg",
+                    "sound": "./assets/AudioClips/parasyte-ost-made-with-Voicemod-technology.mp3",
                     "description": "17-year-old Shinichi Izumi is partially infected by a Parasyte, monsters that butcher and consume humans. He must learn to co-exist with the creature if he is to survive both the life of a Parasyte and a human as part monster, part person.",
                     "vectors": [
                         {
@@ -183,9 +191,10 @@
                     ]
                 },
                 {
-                    "name": "No Game/No Life",
+                    "name": "No Game/No Life (ノーゲーム・ノーライフ 'Nō Gēmu Nō Raifu')",
                     "runtime": "2014 - 2014",
                     "image": "./assets/NoGameNoLife.jpg",
+                    "sound": "./assets/AudioClips/noGameNoLifeEdit.mp3",
                     "description": "Siblings Sora and Shiro make up the most feared team of pro gamers in the world, The Blank. When they manage to beat God himself in a game of chess, they are sent to a world where all disputes are settled with games.",
                     "vectors": [
                         {
@@ -208,9 +217,10 @@
             "image": "./assets/WhiteFoxStudios.jpg",
             "anime": [
                 {
-                    "name": "RE: Zero",
+                    "name": "RE: Zero (Re:ゼロから始める異世界生活 'Re:Zero kara Hajimeru Isekai Seikatsu')",
                     "runtime": "2016 - 2021",
                     "image": "./assets/ReZero.jpg",
+                    "sound": "assets/AudioClips/re zero-funny-noise-made-with-Voicemod-technology.mp3",
                     "description": "After being suddenly transported to another world, Subaru Natsuki and his new female partner are brutally murdered. However, Subaru awakens to a familiar scene, meeting the same girl again. The day begins to mysteriously repeat itself.",
                     "vectors": [
                         {
@@ -222,9 +232,10 @@
                     ]
                 },
                 {
-                    "name": "Arifureta",
+                    "name": "Arifureta (ありふれた職業で世界最強 'Arifureta Shokugyō de Sekai Saikyō')",
                     "runtime": "2019 - Current",
                     "image": "./assets/Arifureta.jpg",
+                    "sound": "./assets/AudioClips/hajimeShootsEdit.mp3",
                     "description": "The series follows Hajime Nagumo, who is transported to another world with the rest of his class to fight in a war against the demon race as Heroes. After he is betrayed and left to die by one of his classmates, Hajime begins a journey of intense struggle  to become the most powerful and find a way to return home.",
                     "vectors": [
                         {
@@ -248,9 +259,10 @@
                     ]
                 },
                 {
-                    "name": "Steins;Gate",
+                    "name": "Steins;Gate (シュタインズ・ゲート 'Shutainzu gēto')",
                     "runtime": "2011 - 2015",
                     "image": "./assets/SteinsGateTitle.jpg",
+                    "sound": "./assets/AudioClips/steinsGateEdit.mp3",
                     "description": "After discovering time travel, a university student and his colleagues must use their knowledge of it to stop an evil organization and their diabolical plans",
                     "vectors": [
                         {
@@ -270,9 +282,10 @@
             "image": "./assets/A1Pictures.jpg",
             "anime": [
                 {
-                    "name": "Seven Deadly Sins",
+                    "name": "Seven Deadly Sins (七つの大罪 'Nanatsu no Taizai')",
                     "runtime": "2014 - 2021",
                     "image": "./assets/SevenDeadlySins.jpg",
+                    "sound": "assets/AudioClips/escanor-vs-galand-seven-deadly-sins-dub-made-with-Voicemod-technology.mp3",
                     "description": "The story of the Seven Deadly Sins, a group of warriors who were wrongly accused of a crime they didn't commit and went on a quest to vindicate themselves.",
                     "vectors": [
                         {
@@ -287,9 +300,10 @@
                     ]
                 },
                 {
-                    "name": "Sword Art Online",
+                    "name": "Sword Art Online (ソードアート・オンライン 'Sōdo Āto Onrain')",
                     "runtime": "2012 - 2020",
                     "image": "./assets/SwordArtOnline.jpg",
+                    "sound": "./assets/AudioClips/KiritoEdit.mp3",
                     "description": "In the year 2022, thousands of people get trapped in a new virtual MMORPG and the lone wolf player, Kirito, works to escape.",
                     "vectors": [
                         {
@@ -304,9 +318,10 @@
                     ]
                 },
                 {
-                    "name": "Fairy Tail",
+                    "name": "Fairy Tail (フェアリーテイル 'Feri Teiru')",
                     "runtime": "2009 - 2019",
                     "image": "./assets/FaryTail.jpg",
+                    "sound": "./assets/AudioClips/fairytaleedit.mp3",
                     "description": "Lucy, an aspiring Celestial Wizard, becomes a friend and ally to powerful wizards Natsu, Gray, and Erza, who are part of the (in)famous wizard guild, Fairy Tail.",
                     "vectors": [
                         {

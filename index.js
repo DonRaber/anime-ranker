@@ -168,11 +168,14 @@ function renderCompanies(studios) {
         })
     })
 }
+
+
+// NAV BAR EVENT
+// Creates a clickabe and collabsable nav bar for the studio list
 /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
 function openNav() {
     document.getElementById("mySidebar").style.width = "250px";
     music.play()
-    //document.getElementById("main").style.marginLeft = "250px";
 }
 
 /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
@@ -182,44 +185,7 @@ function closeNav() {
     music.pause()
 }
 
-
-
-// NAV BAR RESIZER EVENT HANDLER
-// Allows user to resize nav bar through mousedown and move events on nav border
-
-/*const resizer = document.querySelector(".resizer")
-function initResizerFn(resizer, animeCom) {
-    let x, w;
-    let currentWidth
-    function rs_mousedownHandler(e) {
-        x = e.clientX;
-
-        const navWidth = window.getComputedStyle(animeCom).width;
-        w = parseInt(navWidth, 10);
-        resizer.addEventListener("mousemove", rs_mousemoveHandler);
-        resizer.addEventListener("mouseup", rs_mouseupHandler);
-    }
-
-    function rs_mousemoveHandler(e) {
-        const destinationX = e.clientX - x;
-        const currentWidth = w + destinationX;
-
-        
-        if (currentWidth < 700) {
-            animeCom.style.width = `${currentWidth}px`;
-        }
-    }
-    function rs_mouseupHandler() {
-        animeCom.style.width = `${currentWidth}px`
-        resizer.removeEventListener("mousemove", rs_mouseupHandler);
-    }
-    resizer.addEventListener("mousedown", rs_mousedownHandler);
-}
-initResizerFn(resizer, animeCom);
-*/
-
-//OP LOFI BACKGROUND MUSIC
-// Plays low volume lofi music on loop once page is loaded
+// MUSIC VOLUME
 
 const music = document.querySelector('#mainmusic');
  
@@ -228,6 +194,7 @@ music.volume = 0.2;
 
 
 //SELF DESTRUCT BUTTON
+// Just for fun but pretty self explanatory
 
 const selfDestruct = document.getElementById('pauseButton')
 

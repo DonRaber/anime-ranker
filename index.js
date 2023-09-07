@@ -171,6 +171,7 @@ function renderCompanies(studios) {
 /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
 function openNav() {
     document.getElementById("mySidebar").style.width = "250px";
+    music.play()
     //document.getElementById("main").style.marginLeft = "250px";
 }
 
@@ -218,5 +219,5 @@ initResizerFn(resizer, animeCom);
 // Plays low volume lofi music on loop once page is loaded
 
 const music = document.querySelector('#mainmusic');
-
+ 
 music.volume = 0.2;

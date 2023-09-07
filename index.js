@@ -179,7 +179,10 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidebar").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
+    music.pause()
 }
+
+
 
 // NAV BAR RESIZER EVENT HANDLER
 // Allows user to resize nav bar through mousedown and move events on nav border
@@ -221,3 +224,16 @@ initResizerFn(resizer, animeCom);
 const music = document.querySelector('#mainmusic');
  
 music.volume = 0.2;
+
+
+
+//SELF DESTRUCT BUTTON
+
+const selfDestruct = document.getElementById('pauseButton')
+
+const wholeForm = document.getElementById('everything')
+
+selfDestruct.addEventListener('click', () => {
+    wholeForm.innerHTML = ""
+})
+

@@ -29,10 +29,10 @@ WERE GOING FOR INTERACTABLE OBJECTS -- NOTHING MAJOR COMPLICATED -- JUST WANT IT
 
 
 
-**BONUS GOALs:
-1. when you click an Anime Image the description pops up over/around the image with character vectors on screen
-2. Add images of main characters to anime descriptions
-3. Add Background music
+**STRETCH GOALs:
+1. when you click an Anime Image the description pops up over
+2. Add images of characters as vectors on screen
+3. Add Background music & music to individual anime images
 
 
 

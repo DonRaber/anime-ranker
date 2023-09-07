@@ -1,6 +1,7 @@
 # anime-ranker
 
-Capabilities and How to Use
+Capabilities and How to Use:
+----------------------------------------------------------
 
 -Gives a list of anime studios and their respective animes
 
@@ -10,7 +11,8 @@ Capabilities and How to Use
 
 -Clicking of a different studio will clear out the old anime and renders the new anime of the respective studio
 
--Once all is said and done if you wish you can click the footer as a "self-destruct" button and clear the page
+- For fun, once all is read and done, you can locate our footer and *maybe* click it to perform a "self-destruct" on the WHOLE HTML and clear the page lol (because why not 🥴)
+
 
 
 

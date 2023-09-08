@@ -196,11 +196,9 @@ music.volume = 0.2;
 //SELF DESTRUCT BUTTON
 // Just for fun but pretty self explanatory
 
-const selfDestruct = document.getElementById('pauseButton')
+const selfDestructButton = document.getElementById('pauseButton')
 
-const wholeForm = document.getElementById('everything')
-
-selfDestruct.addEventListener('click', () => {
-    wholeForm.innerHTML = ""
+selfDestructButton.addEventListener('click', () => {
+    document.documentElement.innerHTML = "";
 })
 

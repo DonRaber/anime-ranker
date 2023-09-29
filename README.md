@@ -14,27 +14,11 @@ Capabilities and How to Use:
 - For fun, once all is read and done, you can locate our footer and *maybe* click it to perform a "self-destruct" on the WHOLE HTML and clear the page lol (because why not 🥴)
 
 
-
-
-We are planning on making a small list of top 3 anime's based on 4 production companies 
+We made a list of top 3 anime's based on 5 production companies 
 
 1. -- Each production will be displayed on the side
 2. -- when you click production company a larger copy appears center screen with top animes underneath it
 3. -- when you click on anime it displays a description
-
-
-
-WERE GOING FOR INTERACTABLE OBJECTS -- NOTHING MAJOR COMPLICATED -- JUST WANT IT TO LOOK COOL PRETTY
-
-
-
-
-**STRETCH GOALs:
-1. when you click an Anime Image the description pops up over
-2. Add images of characters as vectors on screen
-3. Add Background music & music to individual anime images
-
-
 
 ANIME LIST
 -----------------
